@@ -71,7 +71,7 @@ The model will write the two separated streams in an arbitrary order.
 ## Visualizing the locations of sound sources
 To view the self-supervised network's class activation map (CAM), use the `--cam` flag:
 ```bash
-python sep_video.py ../data/translator.mp4 --model full --cam --out ../results/
+python sep_video.py ../data/crossfire.mp4 --model full --cam --out ../results/
 ```
 This produces a video in which the CAM is overlaid as a heat map:
 
